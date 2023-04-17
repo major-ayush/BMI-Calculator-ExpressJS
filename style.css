@@ -1,3 +1,70 @@
 body{
-    background-color: red;
+    background-color:#FDF4F5;
+}
+
+div{
+    margin : auto;
+    background-color: #DAF5FF;
+    height: 400px;
+    width : 300px;
+    position: relative;
+    border : solid #BACDDB;
+    border-radius: 15%;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: #413543;
+}
+
+input{
+    display: block;
+    text-align: center;
+    height : 70px;
+    width : 250px;
+    font-size: 20px;
+    border: solid #BACDDB;
+    border-radius: 10%;
+}
+
+#heightInput{
+    position : absolute;
+    top : 40px;
+    left : 25px;
+}
+#widthInput{
+    position: absolute;
+    top : 140px;
+    left : 25px;
+}
+#submitButton{
+    position : absolute;
+    top : 240px;
+    left : 50px;
+    height : 60px;
+    width : 200px;
+    border: solid #BACDDB;
+    border-radius: 10%;
+    font-size: 30px;
+    background-color: #408E91;
+}
+
+#resetButton:hover{
+    background-color: #FFB4B4;
+}
+#submitButton:hover{
+    background-color: #FFB4B4;
+}
+
+#resetButton{
+    position : absolute;
+    top : 320px;
+    left : 50px;
+    height : 60px;
+    width : 200px;
+    border: solid #BACDDB;
+    border-radius: 10%;
+    font-size: 30px;
+    background-color: #408E91;
 }
